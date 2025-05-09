@@ -1,0 +1,254 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+html , body {
+  width: 100%;
+  height: 100%;
+  background-color: #A6E1FA;
+}
+
+@media (max-width: 1600px) {
+.to-do-in-block {
+  /* border: 4px solid #00072D; */
+  border-radius: 10px;
+  padding: 10px;
+  width: 700px;
+  margin: 10px;
+  justify-self: center;
+  display: flex;
+
+}
+
+.to-do-in-block input {
+  width: 90%;
+  font: 1em sans-serif;
+  border: none;
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  outline: none;
+}
+
+.to-do-in-block button {
+  width: 10%;
+  font: 1em sans-serif;
+  border: none;
+  padding: 8px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.to-do-list-block {
+  width: 700px;
+  justify-self: center; 
+}
+
+.to-do-list-block ul {
+  list-style: none;
+}
+
+.to-do-list-block li {
+  background-color: #0A2472;
+  padding: 8px;
+  color: aliceblue;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.list-block button {
+  width: 50px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.list-block {
+  display: flex;
+  background-color: #0A2472;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.edit {
+  padding: 1px;
+  margin-right: 5px;
+  width: max-content;
+  height: max-content;
+  color: aliceblue;
+  align-self: center;
+  background-color: #1242d3;
+  border: 1px solid aliceblue;
+  border-radius: 3px;
+}
+
+.editin {
+  width: 100%;
+}
+
+.cli {
+  margin: 10px;
+}
+
+  
+}
+
+@media (max-width: 730px) {
+  .to-do-in-block {
+  border-radius: 10px;
+  padding: 10px;
+  width: 600px;
+  margin: 10px;
+  justify-self: center;
+  display: flex;
+}
+
+.to-do-in-block input {
+  width: 90%;
+  justify-self: center;
+}
+
+.list-block {
+  display: flex;
+  background-color: #0A2472;
+  width: 600px;
+  justify-self: center;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+}
+
+@media (max-width: 600px) {
+  .to-do-in-block {
+  border-radius: 10px;
+  padding: 10px;
+  width: 550px;
+  margin: 10px;
+  justify-self: center;
+  display: flex;
+}
+
+.to-do-in-block input {
+  width: 90%;
+  justify-self: center;
+}
+
+.list-block {
+  display: flex;
+  background-color: #0A2472;
+  width: 600px;
+  justify-self: center;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+}
+
+@media (max-width: 500px) {
+   .to-do-in-block {
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  margin: 10px;
+  justify-self: center;
+  display: flex;
+}
+
+.to-do-in-block button {
+  width: 45px;
+  padding: 0%;
+}
+
+.to-do-in-block input {
+  width: 90%;
+  justify-self: center;
+}
+
+.list-block {
+  display: flex;
+  background-color: #0A2472;
+  width: 400px;
+  justify-self: center;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+}
+
+
+@media (max-width: 400px) {
+ .to-do-in-block {
+  border-radius: 10px;
+  padding: 10px;
+  width: 350px;
+  margin: 10px;
+  justify-self: center;
+  display: flex;
+}
+
+.to-do-in-block button {
+  width: 45px;
+  padding: 0%;
+}
+
+.to-do-in-block input {
+  width: 90%;
+  justify-self: center;
+}
+
+.list-block {
+  display: flex;
+  background-color: #0A2472;
+  width: 350px;
+  justify-self: center;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+}
+
+@media (max-width: 320px) {
+   .to-do-in-block {
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  margin: 10px;
+  justify-self: center;
+  display: flex;
+}
+
+.to-do-in-block input {
+  width: 90%;
+  justify-self: center;
+}
+
+.list-block {
+  display: flex;
+  background-color: #0A2472;
+  width: 300px;
+  justify-self: center;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
